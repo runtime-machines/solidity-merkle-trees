@@ -24,8 +24,8 @@ library MerklePatricia {
      * @notice Verifies ethereum specific merkle patricia proofs as described by EIP-1188.
      * @param root hash of the merkle patricia trie
      * @param proof a list of proof nodes
-     * @param keys a list of keys to verify
-     * @return bytes[] a list of values corresponding to the supplied keys.
+     * @param key a key to verify
+     * @return bytes a value corresponding to the supplied keys.
      */
     function VerifyEthereumProof(
         bytes32 root,
